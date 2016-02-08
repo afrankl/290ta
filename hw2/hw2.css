@@ -50,6 +50,7 @@ h1 div.right {
 
 #menu {
 	width: 200px;
+	overflow: scroll;
 	background-color: #cc9900;
 	list-style-type: none;
 	padding-top: 10px;
@@ -59,12 +60,32 @@ h1 div.right {
 	top-margin: 10px;
 	bottom-margin: 10px;
 	padding: 5px;
+	height: fill;
 }
 
-#content {
-	float: right;
-	position: relative;
-	height: 100%;
+div.content {
+	vertical-align: top;
+	display: inline-block;
+	color: black;
+	width: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div.title {
+	font-size: 50px;
+	text-align: center;
+}
+
+div.example {
+	background-color: dimgrey;
+	padding: 20px;
+}
+
+div.example div.inner {
+	background-color: white;
+	padding: 10px;
+	width: fill;
 }
 
 li.left {
@@ -73,6 +94,10 @@ li.left {
 
 li.right {
 	float: right;
+}
+
+div.minititle {
+	font-size: 30px;
 }
 
 
@@ -93,6 +118,7 @@ a.lists {
 	color: white;
 	text-align: center
 	left: 0;
+	font-size: 15px;
 	text-decoration: none;
 }
 
