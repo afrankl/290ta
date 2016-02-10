@@ -1,24 +1,80 @@
-nav {
-	margin: 20px;
+body {
+	margin: 20px 0;
+	font-size: 18px;
 }
 
-nav a {
+header a {
+	padding: 10px;
+}
+
+
+#nav-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-bar {
+	width: 50%;
+	display: flex;
+}
+
+#international {
+	background-color: green;
+}
+
+#computer-science {
+	background-color: blue;
+}
+
+.nav-item {
+	width: 50%;
+	margin: 5px;
+	padding: 5px;
+	background-color: black;
+	color: white;
+}
+
+.nav-item:hover {
+	background-color: dimgrey;
+}
+
+#conversion-title {
+	margin: 10px;
+	font-size: 25px;
+	color: black;
+	width: 100%;
+	text-align: center;
+}
+
+#converter {
+	margin: 0 10px 0;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	background-color: dimgrey;
+}
+
+.conversion-block {
+	display: flex;
+}
+
+.conversion-block div {
+	margin: 10px;
+	width: 50%;
+}
+
+#to-text {
+	margin: 5%;
+	color: white;
+	position: relative;
+	width: 90%;
+	text-align: center;
+}
+
+.dropdown {
+	background-color: orange;
 	margin: 10px;
 }
 
-.main-container, .project-image, .project-detail {
-	width: 100%;
-	margin: inherit 0;
-}
 
-.project {
-	margin-bottom: 2em;
-}
 
-.project-detail {
-  margin-bottom: 10px;
-}
-
-div .currency {
-	display: flex;
-} 
