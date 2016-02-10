@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -33,16 +34,29 @@ body {
 header {
 	font-size: 40px;
 	margin: 10px 0 10px;
+	width: 100%;
+	background-color: dimgrey;
+	color: orange;
+	text-align: center;
+}
+
+#content {
+	display: flex;
 }
 
 
 #nav-content{
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	width: 30%;
+}
+
+#main-container {
+	width: 70%;
 }
 
 .nav-bar {
-	width: 50%;
+	width: 100%;
 	display: flex;
 }
 
@@ -92,7 +106,7 @@ header {
 }
 
 #to-text {
-	margin: 5%;
+	margin: 2%;
 	color: white;
 	position: relative;
 	width: 90%;

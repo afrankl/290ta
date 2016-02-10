@@ -1,4 +1,4 @@
-var title = document.getElementById("conversion-title");
+var toTitle = document.getElementById("to-text");
 var currency_types = ["Dollars", "Euros"];
 var language_types = ["English", "Spanish"];
 var bit_types = ["Kilo", "Mega", "Giga"];
@@ -33,24 +33,24 @@ function reset_dropdowns(types) {
 }
 
 function converter(newTitle, types) {
-	title.innerHTML = newTitle;
+	toTitle.innerHTML = "Convert " + newTitle;
 	reset_dropdowns(types);
 }
 
 function currency() {
-	converter("Currency Converter", currency_types);
+	converter("Currency", currency_types);
 }
 
 function languages() {
-	converter("Language Converter", language_types);
+	converter("Language", language_types);
 }
 
 function bits() {
-	converter("Bit Conversion", bit_types);
+	converter("Bit", bit_types);
 }
 
 function bytes() {
-	converter("Byte Conversion", bit_types);
+	converter("Byte", bit_types);
 }
 
 

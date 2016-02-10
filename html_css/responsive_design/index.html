@@ -7,7 +7,7 @@
 		<title>Converter</title>
 		<link 
 		<!-- Load stylesheets based on viewport  -->
-		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 700px)" href="main.css">
 		<link rel="stylesheet" type="text/css" media="(max-width: 500px)" href="small.css">
 		<link rel="stylesheet" type="text/css" media="(min-width: 500px) and (max-width: 700px)" href="medium.css">
 		<!-- Load in custom fonts -->
@@ -31,15 +31,14 @@
 					<div id="bytes" class="nav-item" onclick="bytes()">Bytes</div>
 				</div>
 			</div>
-			<div class="main-container">
-				<h3 id="conversion-title"> Select something to convert from above.</h3>
+			<div id="main-container">
 				<div id="converter">
 					<div class="conversion-block">
 						<div> <input id="input-type" type="text"></input> </div>
 						<div id="dropdown-input" class="dropdown"> 
 						</div>
 					</div>
-					<div id="to-text"> To </div>
+					<div id="to-text"> Select something to convert! </div>
 					<div class="conversion-block">
 						<div> <input id="output-type" type="text"></input> </div>
 						<div id="dropdown-output" class="dropdown"> 
