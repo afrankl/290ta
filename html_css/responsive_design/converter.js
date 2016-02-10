@@ -14,6 +14,7 @@ function create_dropdown(types, dropdown) {
 	for (var i = 0; i < types.length; i++) {
 		var t = types[i];
 		var item = document.createElement("div");
+		item.class = "dropdown-item";
 		item.innerHTML = t;
 		dropdown.appendChild(item);
 	}

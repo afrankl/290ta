@@ -17,7 +17,11 @@ body {
 	}
 
 #computer-science {
-		background-color: blue;
+		background-color: purple;
+}
+
+#science {
+	background-color: blue;
 }
 
 .nav-item {
@@ -30,10 +34,10 @@ body {
 
 .nav-item:hover {
 	background-color: dimgrey;
+	cursor: pointer;
 }
 
 #converter {
-	margin: 30px 10px 30px;
 	border-style: solid;
 	border-color: black;
 	border-width: 2px;
@@ -60,6 +64,14 @@ body {
 .dropdown {
 	background-color: orange;
 	margin: 10px;
+	padding: 5px;
+}
+
+.dropdown div {
+	background-color: dimgrey;
+	color: white;
+	text-align: center;
+	cursor: pointer;
 }
 
 footer {

@@ -8,11 +8,7 @@
 #nav-content{
 	display: flex;
 	flex-direction: column;
-	width: 200px;
-}
-
-#main-container {
-	width: 100%;
+	width: 300px;
 }
 
 .nav-bar {
@@ -24,6 +20,15 @@
 .nav-item {
 	width: auto;
 }
+
+#main-container {
+	width: 100%;
+}
+
+#converter {
+	margin: 0px 10px 0px;
+}
+
 
 
 

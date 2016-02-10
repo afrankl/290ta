@@ -1,7 +1,12 @@
 
+#content {
+	display: flex;
+	flex-flow: column;
+}
+
 #nav-content{
 	display: flex;
-	justify-content: space-between;
+	flex-flow: row wrap;
 }
 
 .nav-bar {
@@ -10,7 +15,12 @@
 }
 
 .nav-item {
-	width: 50%;
+	width: 100%;
+	font-size: 15px;
+}
+
+#converter {
+	margin: 30px 10px 30px;
 }
 
 
